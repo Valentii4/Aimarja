@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862ABD7069ED2722066124F2 /* Pods_Aimarja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5887D165364FAC71CFFCA5FA /* Pods_Aimarja.framework */; };
 		A7361F1B269D620A0069A710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361F1A269D620A0069A710 /* AppDelegate.swift */; };
 		A7361F1D269D620A0069A710 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361F1C269D620A0069A710 /* SceneDelegate.swift */; };
 		A7361F1F269D620A0069A710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361F1E269D620A0069A710 /* ViewController.swift */; };
 		A7361F22269D620A0069A710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7361F20269D620A0069A710 /* Main.storyboard */; };
 		A7361F24269D620C0069A710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7361F23269D620C0069A710 /* Assets.xcassets */; };
 		A7361F27269D620C0069A710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7361F25269D620C0069A710 /* LaunchScreen.storyboard */; };
+		A7AA584A269D85CC00E4B74B /* XibProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5849269D85CC00E4B74B /* XibProtocol.swift */; };
+		A7AA584F269D9F3C00E4B74B /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA584D269D9F3C00E4B74B /* BusinessViewController.swift */; };
+		A7AA5850269D9F3C00E4B74B /* BusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7AA584E269D9F3C00E4B74B /* BusinessViewController.xib */; };
+		A7AA5852269DA60100E4B74B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5851269DA60100E4B74B /* Coordinator.swift */; };
+		A7AA5854269DA67300E4B74B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5853269DA67300E4B74B /* AppCoordinator.swift */; };
+		A7AA5859269DACC900E4B74B /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5858269DACC900E4B74B /* AuthCoordinator.swift */; };
+		A7AA585D269DAD3500E4B74B /* BusinessCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA585C269DAD3500E4B74B /* BusinessCoordinator.swift */; };
+		A7AA5860269DAD6200E4B74B /* BusinessCoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA585F269DAD6200E4B74B /* BusinessCoordinatorManager.swift */; };
+		A7AA5864269DAECF00E4B74B /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5862269DAECF00E4B74B /* AuthorizationViewController.swift */; };
+		A7AA5865269DAECF00E4B74B /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7AA5863269DAECF00E4B74B /* AuthorizationViewController.xib */; };
+		A7AA5868269DB28E00E4B74B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5867269DB28E00E4B74B /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01A6C3BAC2884C4A7AFD2CF2 /* Pods-Aimarja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aimarja.debug.xcconfig"; path = "Target Support Files/Pods-Aimarja/Pods-Aimarja.debug.xcconfig"; sourceTree = "<group>"; };
+		5887D165364FAC71CFFCA5FA /* Pods_Aimarja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aimarja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7361F17269D620A0069A710 /* Aimarja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aimarja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7361F1A269D620A0069A710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7361F1C269D620A0069A710 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		A7361F23269D620C0069A710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7361F26269D620C0069A710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7361F28269D620C0069A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AA5849269D85CC00E4B74B /* XibProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibProtocol.swift; sourceTree = "<group>"; };
+		A7AA584D269D9F3C00E4B74B /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
+		A7AA584E269D9F3C00E4B74B /* BusinessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessViewController.xib; sourceTree = "<group>"; };
+		A7AA5851269DA60100E4B74B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A7AA5853269DA67300E4B74B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A7AA5858269DACC900E4B74B /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		A7AA585C269DAD3500E4B74B /* BusinessCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCoordinator.swift; sourceTree = "<group>"; };
+		A7AA585F269DAD6200E4B74B /* BusinessCoordinatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCoordinatorManager.swift; sourceTree = "<group>"; };
+		A7AA5862269DAECF00E4B74B /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		A7AA5863269DAECF00E4B74B /* AuthorizationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorizationViewController.xib; sourceTree = "<group>"; };
+		A7AA5867269DB28E00E4B74B /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		BC43CBCCDA3126EA556EE272 /* Pods-Aimarja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aimarja.release.xcconfig"; path = "Target Support Files/Pods-Aimarja/Pods-Aimarja.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862ABD7069ED2722066124F2 /* Pods_Aimarja.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		916E3CB0C6F48561FD94DFF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5887D165364FAC71CFFCA5FA /* Pods_Aimarja.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7361F0E269D62090069A710 = {
 			isa = PBXGroup;
 			children = (
 				A7361F19269D620A0069A710 /* Aimarja */,
 				A7361F18269D620A0069A710 /* Products */,
+				C6179C8EBEB7A694D40121EA /* Pods */,
+				916E3CB0C6F48561FD94DFF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,123 @@
 		A7361F19269D620A0069A710 /* Aimarja */ = {
 			isa = PBXGroup;
 			children = (
+				A7AA5866269DB26800E4B74B /* Singleton */,
+				A7AA5848269D85B800E4B74B /* Coordinator */,
+				A7361F30269D69310069A710 /* Modules */,
+				A7361F2F269D68FA0069A710 /* Resources */,
+				A7361F2E269D68D10069A710 /* App */,
+			);
+			path = Aimarja;
+			sourceTree = "<group>";
+		};
+		A7361F2E269D68D10069A710 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				A7361F1A269D620A0069A710 /* AppDelegate.swift */,
 				A7361F1C269D620A0069A710 /* SceneDelegate.swift */,
-				A7361F1E269D620A0069A710 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7361F2F269D68FA0069A710 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				A7361F20269D620A0069A710 /* Main.storyboard */,
 				A7361F23269D620C0069A710 /* Assets.xcassets */,
 				A7361F25269D620C0069A710 /* LaunchScreen.storyboard */,
 				A7361F28269D620C0069A710 /* Info.plist */,
 			);
-			path = Aimarja;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7361F30269D69310069A710 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA584C269D9F1200E4B74B /* Business */,
+				A7AA584B269D9F0C00E4B74B /* Auth */,
+				A7361F1E269D620A0069A710 /* ViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A7AA5848269D85B800E4B74B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA585A269DAD0100E4B74B /* AppCoordinator */,
+				A7AA5849269D85CC00E4B74B /* XibProtocol.swift */,
+				A7AA5851269DA60100E4B74B /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A7AA584B269D9F0C00E4B74B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA5861269DAEBD00E4B74B /* View */,
+				A7AA5857269DACBD00E4B74B /* AuthCoordinator */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A7AA584C269D9F1200E4B74B /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA585B269DAD1500E4B74B /* BusinessCoordinator */,
+				A7AA584D269D9F3C00E4B74B /* BusinessViewController.swift */,
+				A7AA584E269D9F3C00E4B74B /* BusinessViewController.xib */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		A7AA5857269DACBD00E4B74B /* AuthCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA5858269DACC900E4B74B /* AuthCoordinator.swift */,
+			);
+			path = AuthCoordinator;
+			sourceTree = "<group>";
+		};
+		A7AA585A269DAD0100E4B74B /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA5853269DA67300E4B74B /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		A7AA585B269DAD1500E4B74B /* BusinessCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA585C269DAD3500E4B74B /* BusinessCoordinator.swift */,
+				A7AA585F269DAD6200E4B74B /* BusinessCoordinatorManager.swift */,
+			);
+			path = BusinessCoordinator;
+			sourceTree = "<group>";
+		};
+		A7AA5861269DAEBD00E4B74B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA5862269DAECF00E4B74B /* AuthorizationViewController.swift */,
+				A7AA5863269DAECF00E4B74B /* AuthorizationViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7AA5866269DB26800E4B74B /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA5867269DB28E00E4B74B /* Session.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		C6179C8EBEB7A694D40121EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A6C3BAC2884C4A7AFD2CF2 /* Pods-Aimarja.debug.xcconfig */,
+				BC43CBCCDA3126EA556EE272 /* Pods-Aimarja.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7361F2B269D620C0069A710 /* Build configuration list for PBXNativeTarget "Aimarja" */;
 			buildPhases = (
+				C2E139B5CA07738A650EC3E8 /* [CP] Check Pods Manifest.lock */,
 				A7361F13269D62090069A710 /* Sources */,
 				A7361F14269D62090069A710 /* Frameworks */,
 				A7361F15269D62090069A710 /* Resources */,
+				87C42345A40506159975E612 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +272,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7361F27269D620C0069A710 /* LaunchScreen.storyboard in Resources */,
+				A7AA5865269DAECF00E4B74B /* AuthorizationViewController.xib in Resources */,
 				A7361F24269D620C0069A710 /* Assets.xcassets in Resources */,
+				A7AA5850269D9F3C00E4B74B /* BusinessViewController.xib in Resources */,
 				A7361F22269D620A0069A710 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87C42345A40506159975E612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aimarja/Pods-Aimarja-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aimarja/Pods-Aimarja-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aimarja/Pods-Aimarja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E139B5CA07738A650EC3E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aimarja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7361F13269D62090069A710 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AA5864269DAECF00E4B74B /* AuthorizationViewController.swift in Sources */,
+				A7AA584A269D85CC00E4B74B /* XibProtocol.swift in Sources */,
 				A7361F1F269D620A0069A710 /* ViewController.swift in Sources */,
+				A7AA5860269DAD6200E4B74B /* BusinessCoordinatorManager.swift in Sources */,
+				A7AA5852269DA60100E4B74B /* Coordinator.swift in Sources */,
 				A7361F1B269D620A0069A710 /* AppDelegate.swift in Sources */,
+				A7AA585D269DAD3500E4B74B /* BusinessCoordinator.swift in Sources */,
+				A7AA5868269DB28E00E4B74B /* Session.swift in Sources */,
+				A7AA584F269D9F3C00E4B74B /* BusinessViewController.swift in Sources */,
 				A7361F1D269D620A0069A710 /* SceneDelegate.swift in Sources */,
+				A7AA5859269DACC900E4B74B /* AuthCoordinator.swift in Sources */,
+				A7AA5854269DA67300E4B74B /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,12 +483,13 @@
 		};
 		A7361F2C269D620C0069A710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A6C3BAC2884C4A7AFD2CF2 /* Pods-Aimarja.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 233CLBU936;
-				INFOPLIST_FILE = Aimarja/Info.plist;
+				INFOPLIST_FILE = Aimarja/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +503,13 @@
 		};
 		A7361F2D269D620C0069A710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC43CBCCDA3126EA556EE272 /* Pods-Aimarja.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 233CLBU936;
-				INFOPLIST_FILE = Aimarja/Info.plist;
+				INFOPLIST_FILE = Aimarja/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
